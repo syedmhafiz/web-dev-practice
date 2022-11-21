@@ -1,5 +1,46 @@
-* {
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
-    
+    font-family: "Mukta", sans-serif;
+    background-color: azure;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    min-height: 400px;
+}
+
+.hero .sub {
+    margin-right: 10px;
+    display: inline-block;
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.hero .sub h1 {
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+.hero .sub h3 {
+    display: flex;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+.hero .imgs {
+    margin-left: 20px;
+    width: 310px;
+    height: 310px;
 }
