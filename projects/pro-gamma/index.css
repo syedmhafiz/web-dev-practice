@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color:blue;
     min-height: 400px;
 }
 
@@ -42,9 +42,15 @@ body {
     text-align: end;
     color: blanchedalmond;
 }
-
+/* 
 .hero .imgs {
     margin-left: 150px;
-    width: 310px;
-    height: 310px;
+    width: 150px;
+    height: 150px;
+} */
+
+.avatar {
+    margin-left: 150px;
+    width: 250px;
+    height: 250px;
 }
